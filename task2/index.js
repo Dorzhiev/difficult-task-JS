@@ -27,3 +27,11 @@ var arr = {
 	'en':['mn', 'ts', 'wd', 'th', 'fr', 'st', 'sn'],
 };
 console.log(arr[lang2]);
+
+//тернарный оператор
+
+let name = 'Максим';
+let namePerson = (name === 'Артем')? 'директор':
+    (name === 'Максим')? 'преподаватель':
+'студент';
+console.log(namePerson);
